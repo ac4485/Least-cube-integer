@@ -19,5 +19,7 @@ jgg:
 add $-1,%ecx
 jmp end
 end:
+mov %ecx,%eax
 mov $0, %edi
 syscall
+ret
